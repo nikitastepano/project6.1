@@ -2270,7 +2270,7 @@ body {
 @media screen and (min-width: 1440px) {
   body .container {
     display: flex;
-    width: 1440px; } }
+    width: 100%; } }
 
 
 /*# sourceMappingURL=style.css.map*/
