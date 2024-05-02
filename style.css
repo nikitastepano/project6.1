@@ -794,16 +794,16 @@ body .container .services .services-header {
       body .container .services .services-header .services-header__right .btn-services .btn-services-img {
         vertical-align: middle; }
 
-body .container .services .services__heading-roster {
+body .container .services .services-heading__roster {
   background-color: #f8f8f8; }
-  body .container .services .services__heading-roster .services-top {
+  body .container .services .services-heading__roster .services-top {
     position: relative;
     padding: 16px 16px 24px 16px; }
-    body .container .services .services__heading-roster .services-top .services-top__sot {
+    body .container .services .services-heading__roster .services-top .services-top__sot {
       margin: 0;
       font-size: 28px;
       line-height: 40px; }
-      body .container .services .services__heading-roster .services-top .services-top__sot::before {
+      body .container .services .services-heading__roster .services-top .services-top__sot::before {
         content: '';
         position: absolute;
         left: 0;
@@ -811,10 +811,10 @@ body .container .services .services__heading-roster {
         height: 40px;
         border-radius: 10px;
         background-color: turquoise; }
-    body .container .services .services__heading-roster .services-top .services-top__hidden {
+    body .container .services .services-heading__roster .services-top .services-top__hidden {
       display: none;
       gap: 160px; }
-      body .container .services .services__heading-roster .services-top .services-top__hidden .btn__services {
+      body .container .services .services-heading__roster .services-top .services-top__hidden .btn__services {
         cursor: pointer;
         padding: 0;
         width: 40px;
@@ -822,7 +822,7 @@ body .container .services .services__heading-roster {
         border: none;
         border-radius: 50%;
         background-color: #ff3e79; }
-        body .container .services .services__heading-roster .services-top .services-top__hidden .btn__services:first-child:before {
+        body .container .services .services-heading__roster .services-top .services-top__hidden .btn__services:first-child:before {
           content: 'Оставить заявку';
           position: absolute;
           text-wrap: nowrap;
@@ -831,7 +831,7 @@ body .container .services .services__heading-roster {
           font-weight: 500;
           line-height: 24px;
           transform: translateX(-150px) translateY(-3px); }
-        body .container .services .services__heading-roster .services-top .services-top__hidden .btn__services:last-child::before {
+        body .container .services .services-heading__roster .services-top .services-top__hidden .btn__services:last-child::before {
           content: 'Статус ремонта';
           position: absolute;
           text-wrap: nowrap;
@@ -840,9 +840,9 @@ body .container .services .services__heading-roster {
           font-weight: 500;
           line-height: 24px;
           transform: translateX(-150px) translateY(-3px); }
-        body .container .services .services__heading-roster .services-top .services-top__hidden .btn__services .btn__services-img {
+        body .container .services .services-heading__roster .services-top .services-top__hidden .btn__services .btn__services-img {
           vertical-align: middle; }
-  body .container .services .services__heading-roster .services-bottom .services-bottom__list {
+  body .container .services .services-heading__roster .services-bottom .services-bottom__list {
     padding-right: 16px;
     padding-left: 16px;
     margin: 0;
@@ -850,15 +850,15 @@ body .container .services .services__heading-roster {
     scrollbar-width: none;
     list-style: none;
     display: flex; }
-    body .container .services .services__heading-roster .services-bottom .services-bottom__list .services-bottom__item {
+    body .container .services .services-heading__roster .services-bottom .services-bottom__list .services-bottom__item {
       padding: 8px 10px 8px 16px;
       box-sizing: border-box;
       border: 1px solid transparent;
       border-radius: 10px; }
-      body .container .services .services__heading-roster .services-bottom .services-bottom__list .services-bottom__item:hover {
+      body .container .services .services-heading__roster .services-bottom .services-bottom__list .services-bottom__item:hover {
         border-color: turquoise;
         background-color: white; }
-      body .container .services .services__heading-roster .services-bottom .services-bottom__list .services-bottom__item .services-bottom__link {
+      body .container .services .services-heading__roster .services-bottom .services-bottom__list .services-bottom__item .services-bottom__link {
         color: #7e7e82;
         text-wrap: nowrap;
         text-decoration: none; }
@@ -882,26 +882,26 @@ body .container .services .services__heading-roster {
       width: 2px;
       height: 32px;
       background-color: silver; }
-  body .container .services .services__heading-roster .services-top {
+  body .container .services .services-heading__roster .services-top {
     padding-bottom: 32px; } }
 
 @media screen and (min-width: 1440px) {
   body .container .services .services-header {
     display: none; }
-  body .container .services .services__heading-roster {
+  body .container .services .services-heading__roster {
     background-color: #f8f8f8; }
-    body .container .services .services__heading-roster .services-top {
+    body .container .services .services-heading__roster .services-top {
       padding: 42px 30px 8px 16px;
       position: relative;
       display: flex;
       justify-content: space-between; }
-      body .container .services .services__heading-roster .services-top .services-top__sot::before {
+      body .container .services .services-heading__roster .services-top .services-top__sot::before {
         left: 4px; }
-      body .container .services .services__heading-roster .services-top .services-top__hidden {
+      body .container .services .services-heading__roster .services-top .services-top__hidden {
         display: flex; }
-    body .container .services .services__heading-roster .services-bottom .services-bottom__list {
+    body .container .services .services-heading__roster .services-bottom .services-bottom__list {
       flex-wrap: wrap; }
-      body .container .services .services__heading-roster .services-bottom .services-bottom__list .services-bottom__item {
+      body .container .services .services-heading__roster .services-bottom .services-bottom__list .services-bottom__item {
         margin-right: 10px; } }
 
 body .container .services .services-main {
