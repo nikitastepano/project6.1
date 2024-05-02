@@ -733,17 +733,17 @@ body .container .services {
   display: flex;
   flex-direction: column; }
 
-body .container .services .services__header {
+body .container .services .services-header {
   padding: 16px;
   background-color: white;
   border-bottom: 1px solid turquoise;
   display: flex;
   justify-content: space-between; }
-  body .container .services .services__header .services__header__left {
+  body .container .services .services-header .services-header__left {
     align-items: center;
     display: flex;
     gap: 16px; }
-    body .container .services .services__header .services__header__left::after {
+    body .container .services .services-header .services-header__left::after {
       content: '';
       position: relative;
       right: 0;
@@ -751,7 +751,7 @@ body .container .services .services__header {
       height: 32px;
       border-radius: 10px;
       background-color: silver; }
-    body .container .services .services__header .services__header__left .btn-services {
+    body .container .services .services-header .services-header__left .btn-services {
       cursor: pointer;
       padding: 0;
       width: 40px;
@@ -759,21 +759,21 @@ body .container .services .services__header {
       border: none;
       border-radius: 50%;
       background-color: #ff3e79; }
-      body .container .services .services__header .services__header__left .btn-services .btn-services-img {
+      body .container .services .services-header .services-header__left .btn-services .btn-services-img {
         vertical-align: middle; }
-    body .container .services .services__header .services__header__left .link-services {
+    body .container .services .services-header .services-header__left .link-services {
       width: 100px;
       height: 50px; }
-      body .container .services .services__header .services__header__left .link-services .link-services-img {
+      body .container .services .services-header .services-header__left .link-services .link-services-img {
         width: 100px;
         height: 50px; }
-  body .container .services .services__header .services__header__right {
+  body .container .services .services-header .services-header__right {
     align-items: center;
     display: flex;
     gap: 16px; }
-    body .container .services .services__header .services__header__right .services__header__right-hidden {
+    body .container .services .services-header .services-header__right .services-header__right-hidden {
       display: none; }
-      body .container .services .services__header .services__header__right .services__header__right-hidden .btn-services-hidden {
+      body .container .services .services-header .services-header__right .services-header__right-hidden .btn-services-hidden {
         cursor: pointer;
         padding: 0;
         width: 40px;
@@ -781,9 +781,9 @@ body .container .services .services__header {
         border: none;
         border-radius: 50%;
         background-color: #ff3e79; }
-        body .container .services .services__header .services__header__right .services__header__right-hidden .btn-services-hidden .btn-services-hidden-img {
+        body .container .services .services-header .services-header__right .services-header__right-hidden .btn-services-hidden .btn-services-hidden-img {
           vertical-align: middle; }
-    body .container .services .services__header .services__header__right .btn-services {
+    body .container .services .services-header .services-header__right .btn-services {
       cursor: pointer;
       padding: 0;
       width: 40px;
@@ -791,7 +791,7 @@ body .container .services .services__header {
       border: none;
       border-radius: 50%;
       background-color: #ff3e79; }
-      body .container .services .services__header .services__header__right .btn-services .btn-services-img {
+      body .container .services .services-header .services-header__right .btn-services .btn-services-img {
         vertical-align: middle; }
 
 body .container .services .services__heading-roster {
@@ -864,18 +864,18 @@ body .container .services .services__heading-roster {
         text-decoration: none; }
 
 @media screen and (min-width: 768px) {
-  body .container .services .services__header .services__header__left {
+  body .container .services .services-header .services-header__left {
     gap: 42px; }
-    body .container .services .services__header .services__header__left::after {
+    body .container .services .services-header .services-header__left::after {
       content: '';
       position: absolute;
       left: 80px; }
-  body .container .services .services__header .services__header__right .services__header__right-hidden {
+  body .container .services .services-header .services-header__right .services-header__right-hidden {
     padding-right: 10px;
     display: flex;
     gap: 16px;
     align-items: center; }
-    body .container .services .services__header .services__header__right .services__header__right-hidden::after {
+    body .container .services .services-header .services-header__right .services-header__right-hidden::after {
       content: '';
       position: relative;
       right: -5px;
@@ -886,7 +886,7 @@ body .container .services .services__heading-roster {
     padding-bottom: 32px; } }
 
 @media screen and (min-width: 1440px) {
-  body .container .services .services__header {
+  body .container .services .services-header {
     display: none; }
   body .container .services .services__heading-roster {
     background-color: #f8f8f8; }
